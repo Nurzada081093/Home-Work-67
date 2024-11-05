@@ -1,10 +1,11 @@
 import './App.css';
+import Password from './Containers/Password/Password.tsx';
 
 const App = () => {
 
   return (
     <>
-      I'm starting my home work #67! ^_^
+      <Password/>
     </>
   );
 };
