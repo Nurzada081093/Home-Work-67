@@ -1,0 +1,28 @@
+.door {
+  width: 450px;
+  border: 1px solid black;
+  margin: 40px auto;
+  padding: 20px 0;
+}
+
+.display-box {
+  height: 150px;
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  margin-left: 15px;
+}
+
+.buttons button {
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  font-size: 30px;
+}

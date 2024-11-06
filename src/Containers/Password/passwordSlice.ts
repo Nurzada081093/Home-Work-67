@@ -1,19 +1,23 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface PasswordState {
   value: string;
+  displayColor: string;
+  resultText: string;
 }
 
 const initialState: PasswordState = {
-  value: '1235',
+  value: '',
+  displayColor: '',
+  resultText: '',
 };
 
 export const passwordSlice = createSlice({
   name: 'password',
   initialState,
   reducers: {
-    guessThePassword: (state) => {
-      state.value += 'a';
+    guessThePassword: (state, action: PayloadAction<string>) => {
+      state.value += action.payload;
     }
   }
 
