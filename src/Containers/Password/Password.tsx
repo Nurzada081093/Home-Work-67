@@ -20,9 +20,10 @@ const Password = () => {
   }
 
   return (
-    <>
+    <div className="password-page">
       <ButtonChangePage text="Calculator page" page/>
-      <div className="door">
+      <div className="password-door">
+        <p className="title">Door pin code</p>
         {result === '' ? <div className="display-box">{passwordSymbol}</div> :
           <div className="display-box" style={{backgroundColor: `${backgroundColor}`}}>{result}</div>
         }
@@ -46,7 +47,7 @@ const Password = () => {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,11 +1,40 @@
-body {
+.password-page {
+  background: url("https://t3.ftcdn.net/jpg/04/62/58/10/240_F_462581032_wOJ8yvZvFp8crbsbmojAFn4PQR8OJbw4.jpg") center center no-repeat fixed;
+  background-size: cover;
+  margin: -8px;
+  padding: 25px 0 18px;
+}
+
+.calculator-page {
   background: url("https://img.freepik.com/premium-photo/smoke-isolated-black-background_275805-871.jpg?w=740") center center no-repeat fixed;
   background-size: cover;
+  margin: -10px -8px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.password-door {
+  width: 450px;
+  margin: 10px auto;
+  padding: 20px 0;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 245, 0.72);
+  color: white;
 }
 
 .door {
   width: 450px;
-  margin: 40px auto 20px;
+  margin: 10px 15%;
   padding: 20px 0;
   border-radius: 20px;
   background-color: rgba(245, 245, 245, 0.72);
@@ -13,7 +42,7 @@ body {
 }
 
 .display-box {
-  height: 120px;
+  height: 80px;
   border: 2px solid white;
   margin: 10px 20px;
   padding: 20px;
